@@ -1,0 +1,22 @@
+{
+    "name": "Eventos 2025",
+    "short_name": "Eventos 2025",
+    "description": "Descubre los eventos de Mundo Ejecutivo 2025: Cumbre 200, TI, Mundo Sustentable, Fintech y Cumbre 1000. ¡No te los pierdas!",
+    "start_url": "https://grupomundoejecutivo.com/eventos2025/index",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "orientation": "portrait",
+    "icons": [
+        {
+        "src": "assets/images/android-chrome-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+        },
+        {
+        "src": "assets/images/android-chrome-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+        }
+    ]
+}
