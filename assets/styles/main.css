@@ -1,0 +1,546 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0px 0px;
+    margin: 0%;
+    grid-gap: 0px 15px;
+}
+
+.contenedor-logo-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px 15px;
+    margin: 0%
+}
+
+.nav-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px 15px;
+    margin: 0%;
+    grid-gap: 25px 25px;
+    background-color: #1f2b51;
+}
+
+.nav-1-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    grid-gap: 25px 25px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav-1-ul-celular{
+    display: none;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.nav-1-li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0%;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.25s;
+    border-bottom: 2px transparent solid;
+}
+
+.nav-1-li:hover{
+    border-bottom: 2px #ffffff solid;
+}
+
+.nav-1-li:active{
+    border-bottom: 2px #2d4fbd solid;
+}
+
+.nav-1-li a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: clamp(13px, 1.3vw, 18px);
+    font-weight: 500;
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0%;
+    padding: 25px 25px;
+    background-color: #181818;
+    grid-gap: 25px 25px;
+}
+
+.section-universal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    margin: 0%;
+    grid-gap: 50px;
+}
+
+.section-universal-parte-1{
+    width: calc(40% - 75px);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 25px 25px;
+    margin: 0%;
+    padding: 50px 25px;
+}
+
+.section-universal-parte-2{
+    width: calc(60% - 75px);
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 50px 25px;
+    margin: 0%;
+    padding: 25px 25px;
+}
+
+.section-header{
+    width: 1000%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    margin: 0%;
+    grid-gap: 50px;
+}
+
+.contenedor-universal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.align-end-end{
+    justify-content: end !important;
+    align-items: end !important;
+    text-align: end !important;
+}
+
+.align-center-center{
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+
+.fondo-header{
+    position: relative;
+    background-image: url('../images/fondo.webp');
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    background-position: start start;
+    background-attachment: fixed;
+}
+
+.fondo-hexagonos{
+    background-image: url('../images/fondo.webp');
+    background-repeat: no-repeat;
+    background-size: 100% cover;
+    background-position: start start;
+}
+
+.fondo-azul-deg{
+    background: linear-gradient(260deg, #1f2b51, #274093);
+}
+
+.fondo-azul{
+    background-color: #1f2b51 !important;
+}
+
+.fondo-azul-2{
+    background-color: #274093 !important;
+}
+
+.h2-1{
+    color: #000000;
+    font-size: clamp(20px, 2.5vw, 45px);
+    padding: 0%;
+    margin: 0%;
+    text-transform: uppercase;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.h2-2{
+    color: #000000;
+    font-size: clamp(25px, 2.5vw, 45px);
+    padding: 0%;
+    margin: 0%;
+    text-transform: uppercase;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+}
+
+.h2-3{
+    color: #000000;
+    font-size: clamp(25px, 2.5vw, 45px);
+    padding: 0%;
+    margin: 0%;
+    text-transform: uppercase;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+}
+
+.parrafo-1{
+    color: #ffffff;
+    font-size: clamp(18px, 1.5vw, 25px);
+    padding: 0%;
+    margin: 0%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    width: 100%;
+}
+
+.parrafo-2{
+    color: #ffffff;
+    font-size: clamp(18px, 1.5vw, 25px);
+    padding: 0%;
+    margin: 0%;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    width: 100%;
+}
+
+.color-blanco{
+    color: #ffffff;
+}
+
+.logo{
+    height: 50px;
+}
+
+.fa-bars{
+    color: #ffffff;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.fa-bars:hover{
+    background: linear-gradient(45deg, #f93737, 45%, #4f72e6);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fa-xmark{
+    color: #000000;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.fa-xmark:hover{
+    transform: rotate(180deg);
+    background: linear-gradient(45deg, #ff0000, #2d4fbd);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fa-xmark:active{
+    transform: scale(0.85) rotate(180deg);
+}
+
+.imagen-1{
+    width: 25%;
+    min-width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+
+.imagen-2{
+    width: 25%;
+    min-width: 225px;
+    height: auto;
+    object-fit: cover;
+}
+
+.imagen-3{
+    display: none;
+}
+
+.imagen-4{
+    display: none;
+}
+
+.imagen-5{
+    width: 25%;
+    min-width: 225px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.imagen-5:hover{
+    box-shadow: 0px 0px 7px #ffffff50;
+    transform: translateY(-10px);
+}
+
+.imagen-6{
+    display: none;
+}
+
+.imagen-7{
+    display: none;
+}
+
+.section-menu-celular-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: url('../images/fondo.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: start start;
+}
+
+.contenedor-menu-celular-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 15px 15px;
+}
+
+.contenedor-menu-celular-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 85%;
+    grid-gap: 20px 20px;
+    padding: 0px 25px;
+}
+
+.contenedor-menu-celular-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.menu-celular-opciones{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 15px 15px;
+    cursor: pointer;
+    transition: 0.25s;
+    border-radius: 10px;
+}
+
+.menu-celular-opciones a{
+    color: #000000;
+    padding: 0%;
+    margin: 0%;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.menu-celular-opciones:hover{
+    background-color: #ebebeb;
+}
+
+.menu-celular-opciones:active{
+    background-color: #d6d6d6;
+}
+
+.menu-celular-opciones a:visited{
+    color: #000000;
+}
+
+.padding-50-50{
+    padding: 50px 50px !important;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .logo{
+        height: 40px;
+    }
+
+    .nav-1-ul{
+        display: none;
+    }
+
+    .nav-1-ul-celular{
+        display: flex;
+    }
+
+    .align-end-end{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+    }
+
+    .h2-1{
+        color: #ffffff;
+        background-color: #1f2b51;
+        border-radius: 15px;
+        padding: 10px 15px;
+    }
+
+    .padding-50-50{
+        padding: 25px 25px !important;
+    }
+
+    .section-universal-parte-1{
+        display: none;
+    }
+    
+    .section-universal-parte-2{
+        width: 100%;
+        grid-gap: 25px 25px;
+    }
+
+    .imagen-3{
+        display: flex;
+        width: 100px;
+        padding: 10px 10px;
+        border: 2px #ffffff solid;
+    }
+
+    .imagen-7{
+        display: none;
+    }
+
+    .imagen-6{
+        display: flex;
+        width: 100px;
+        padding: 10px 10px;
+        border: 2px #ffffff solid;
+    }    
+
+    .imagen-4{
+        display: flex;
+        width: 100px;
+        padding: 10px 10px;
+        border: 2px #000000 solid;
+    }
+
+    .fondo-hexagonos-2{
+        background-image: url('../images/fondo.webp');
+    }
+
+    .parrafo-1{
+        font-weight: 300;
+    }
+
+    .parrafo-2{
+        color: #000000;
+        font-weight: 400;
+    }
+
+    .h2-3{
+        color: #000000;
+    }
+}
